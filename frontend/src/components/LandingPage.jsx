@@ -145,37 +145,6 @@ const LandingPage = () => {
         >
           Get Started
         </Link>
-
-        {/* Developed By Section */}
-        <div className="w-full max-w-4xl mx-auto mt-20 mb-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-white mb-8 tracking-tight">Developed By</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white/90 rounded-2xl shadow-lg p-6 flex items-center gap-6 border border-blue-100">
-              <img
-                src="/Shiv.jpg"
-                alt="Shiv Shakti Kumar"
-                className="w-24 h-24 rounded-full object-cover border-4 border-blue-100 shadow-md"
-              />
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-1">Shiv Shakti Kumar</h3>
-                <p className="text-gray-600 mb-1">23114091</p>
-                <p className="text-gray-600">IIT Roorkee Computer Science Student</p>
-              </div>
-            </div>
-            <div className="bg-white/90 rounded-2xl shadow-lg p-6 flex items-center gap-6 border border-blue-100">
-              <img
-                src="/Lakhveer.jpeg"
-                alt="Lakhveer Singh"
-                className="w-24 h-24 rounded-full object-cover border-4 border-blue-100 shadow-md"
-              />
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-1">Lakhveer Singh</h3>
-                <p className="text-gray-600 mb-1">23114054</p>
-                <p className="text-gray-600">IIT Roorkee Computer Science Student</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
